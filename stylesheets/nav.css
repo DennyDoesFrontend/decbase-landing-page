@@ -1,0 +1,23 @@
+@import url(../stylesheets/styles.css);
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 2rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    list-style: none;
+    font-weight: 600;
+}
+
+.sign-up-btn {
+    background-color: var(--brown);
+    padding: 5px 19px;
+    border: none;
+    color: white;
+}
