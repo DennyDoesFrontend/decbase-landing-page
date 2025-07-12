@@ -15,8 +15,8 @@
 }
 
 /* general styles */
-body {
-    padding-inline: 300px;
+.section {
+    padding-inline: 250px;
 }
 
 /* active for current page link */
@@ -30,4 +30,32 @@ body {
     border-bottom-right-radius: 0.9rem;
     font-weight: 600;
     font-size: 1rem;
+}
+
+/* for headings */
+.heading {
+    font-family: Poppins, sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+/* for small top headings */
+.small-heading {
+    color: var(--grey);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+main  {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+/* big paragraph headings */
+.big-p-text {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 65px;
+    font-family: Poppins, sans-serif;
 }

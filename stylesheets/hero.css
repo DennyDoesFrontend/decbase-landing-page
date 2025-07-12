@@ -12,20 +12,14 @@
     gap: 12px;
 }
 
-.hero .hero-text h4 {
-    color: var(--grey);
-    font-weight: 600;
-}
-
 .hero .hero-text h1 {
     font-size: 4rem;
-    font-family: Poppins, sans-serif;
     font-weight: 600;
     line-height: 4.1rem;
 }
 .hero .hero-text p {
     color: var(--grey);
-    line-height: 24px;
+    line-height: 30px;
     margin-bottom: 16px;
 }
 

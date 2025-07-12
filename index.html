@@ -12,12 +12,16 @@
     <link rel="stylesheet" href="./stylesheets/styles.css" />
     <link rel="stylesheet" href="./stylesheets/nav.css" />
     <link rel="stylesheet" href="./stylesheets/hero.css" />
+    <link rel="stylesheet" href="./stylesheets/whatwedo.css" />
+    <link rel="stylesheet" href="./stylesheets/aboutus.css" />
+    <link rel="stylesheet" href="./stylesheets/readmore.css" />
+    <link rel="stylesheet" href="./stylesheets/testimonials.css" />
     <title>Decbase</title>
   </head>
   <body>
     <!-- navigation bar -->
     <header>
-      <nav>
+      <nav class="section">
         <img src="./assets/logo.png" alt="Logo" class="logo" />
         <ul>
           <li class="active">HOME</li>
@@ -32,10 +36,10 @@
     </header>
     <main>
       <!-- Hero section starts here -->
-      <section class="hero">
+      <section class="hero section">
         <div class="hero-text">
-          <h4>MODERN INTERIOR</h4>
-          <h1>Create Your Interior Design</h1>
+          <h4 class="small-heading">MODERN INTERIOR</h4>
+          <h1 class="heading">Create Your Interior Design</h1>
           <!-- I put this as the h1 because I had no idea what else it could be-->
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -46,6 +50,138 @@
         </div>
         <div class="hero-image">
           <img src="./assets/hero-image.png" alt="hero image" />
+        </div>
+      </section>
+      <!-- What we do section here -->
+      <section class="whatwedo section">
+        <div class="whatwedo-heading">
+          <!-- heading part -->
+          <div class="left">
+            <h4 class="small-heading">WHAT WE DO</h4>
+            <h2 class="heading">Our Services</h2>
+          </div>
+          <div class="arrows">
+            <span><img src="./assets/arrow-left.png" alt="arrow left" /></span>
+            <span
+              ><img
+                class="green-img"
+                src="./assets/arrow-right.png"
+                alt="arrow-right"
+            /></span>
+          </div>
+        </div>
+        <!-- cards part starts here -->
+        <div class="cards">
+          <div class="card">
+            <img src="./assets/sr.svg" alt="" />
+            <div class="text">
+              <h4>Interior Design</h4>
+              <p>
+                Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod
+                tempor incididunt ut labore.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/sr.svg" alt="" />
+            <div class="text">
+              <h4>Interior Design</h4>
+              <p>
+                Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod
+                tempor incididunt ut labore.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/sr.svg" alt="" />
+            <div class="text">
+              <h4>Interior Design</h4>
+              <p>
+                Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod
+                tempor incididunt ut labore.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about-us section">
+        <img src="./assets/about-image.png" alt="" />
+        <div class="text">
+          <h4 class="small-heading">ABOUT US</h4>
+          <h2 class="heading">Interior is The Will of An Epoch Mextreo</h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form injected humour,
+            or randomised words which don't look even slightly believable.If you
+            are going to use a passage of Lorem Ipsum, sure there isn't anything
+            embarrassing hidden the middleof text. All the Lorem Ipsum
+            generators on the Internettend to repeat predefined chunks as
+            necessary,making this the first true generator on the Internet.
+          </p>
+          <button class="curve green">LEARN MORE</button>
+        </div>
+      </section>
+      <!-- section for the read more -->
+      <section class="readmore section">
+        <div class="left">
+          <h2 class="bg-text">20</h2>
+          <p class="big-p-text">Years Of Successful Working The Market</p>
+          <button class="read-more-btn curve">READ MORE</button>
+        </div>
+        <img src="./assets/readmore-image.png" alt="read  more" />
+      </section>
+      <!-- work experience -->
+      <section class="work-experience">
+        <h3>3000+ Completed Work</h3>
+        <h3 class="gap-heading">Which WE have Successfully Done</h3>
+        <img src="./assets/work-experience.png" alt="" />
+      </section>
+      <!-- testimonials -->
+      <section class="testimonials section">
+        <h4 class="small-heading">TESTIMONIALS</h4>
+        <h3>Client says about us</h3>
+        <div class="arrows">
+          <span><img src="./assets/arrow-left.png" alt="arrow left" /></span>
+          <span
+            ><img
+              class="green-img"
+              src="./assets/arrow-right.png"
+              alt="arrow-right"
+          /></span>
+        </div>
+        <div class="testimonial-cards">
+          <div class="testimonial-card">
+            <img class="profile" src="./assets/testimonial-person.png" alt="" />
+            <img src="./assets/quotes.png" alt="quotes" class="quotes" />
+            <div>
+              <span
+                ><p class="bold">Louis Saville</p>
+                <span class="small">/CEO at Google Inc</span></span
+              >
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <img
+              src="./assets/testimonial-person.png"
+              alt="Louis Saville"
+              class="profile"
+            />
+            <img src="./assets/quotes.png" alt="quotes" class="quotes" />
+            <div>
+              <span>
+                <p class="bold">Louis Saville</p>
+                <span class="small">/CEO at Google Inc</span>
+              </span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>

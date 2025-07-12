@@ -1,0 +1,21 @@
+.about-us {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+
+.about-us .text > p {
+    color: var(--grey);
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 22px;
+}
+
+.about-us .text .green {
+    background-color: var(--green);
+    font-size: 16px;
+    padding: 5px 19px;
+    border: none;
+    color: white;
+    margin-top: 46px;
+}

@@ -1,0 +1,82 @@
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block-end: 120px;
+}
+
+.testimonials h3, .testimonials h4 {
+    text-align: center;
+}
+
+.testimonials h3 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.testimonials .arrows {
+    align-self: flex-end;
+}
+
+.testimonial-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 140px;
+    margin-top: 85px;
+}
+
+.testimonial-cards .testimonial-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 7px 7px 30px 5px #42605426;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.testimonial-card div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.testimonial-card span {
+    display: flex;
+    align-items: flex-end;
+}
+
+.testimonial-card p {
+    line-height: 28px;
+    color: var(--grey)
+}
+
+.testimonial-card span .bold {
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+
+.testimonial-card span .small {
+    font-weight: 400;
+    color: var(--grey);
+    font-size: 15px;
+}
+
+.testimonial-card .profile {
+    position: absolute;
+    left: -60px;
+    top: 25px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.quotes {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
