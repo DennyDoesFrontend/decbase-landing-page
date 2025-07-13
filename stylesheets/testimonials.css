@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-block-end: 120px;
 }
 
 .testimonials h3, .testimonials h4 {
@@ -58,7 +57,7 @@
 .testimonial-card span .bold {
     font-weight: 700;
     font-size: 24px;
-    color: black;
+    color: var(--black);
 }
 
 .testimonial-card span .small {

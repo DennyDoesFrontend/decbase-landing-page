@@ -4,7 +4,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-block: 2rem;
+    padding-block-start: 50px;
 }
 
 nav ul {
@@ -17,7 +17,5 @@ nav ul {
 
 .sign-up-btn {
     background-color: var(--brown);
-    padding: 5px 19px;
-    border: none;
-    color: white;
 }
+

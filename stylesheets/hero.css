@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     gap: 44px;
-    padding-block: 50px;
 }
 
 .hero .hero-text {
@@ -25,7 +24,4 @@
 
 .hero .hero-text .contact {
     background-color: var(--green);
-    padding: 5px 19px;
-    border: none;
-    color: white;
 }

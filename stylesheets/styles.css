@@ -1,9 +1,10 @@
 /* root declaration and variables */
 :root {
     --brown: #CAA892;
-    --black: #111111;
+    --black: #212121;
     --green: #37806B;
     --grey: #646464;
+
 }
 
 /* all elements should have these */
@@ -16,7 +17,7 @@
 
 /* general styles */
 .section {
-    padding-inline: 250px;
+    padding-block-start: 150px;
 }
 
 /* active for current page link */
@@ -30,6 +31,9 @@
     border-bottom-right-radius: 0.9rem;
     font-weight: 600;
     font-size: 1rem;
+    padding: 5px 19px;
+    border: none;
+    color: white;
 }
 
 /* for headings */
@@ -49,7 +53,7 @@
 main  {
     display: flex;
     flex-direction: column;
-    gap: 120px;
+    /* gap: 120px; */
 }
 
 /* big paragraph headings */
@@ -58,4 +62,17 @@ main  {
     font-weight: 500;
     line-height: 65px;
     font-family: Poppins, sans-serif;
+}
+
+/* media queries */
+@media screen and (min-width: 1700px) {
+    nav, .hero, .whatwedo, .about-us, .readmore, .testimonials, .latest-news, footer {
+        padding-inline: 250px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    nav, .hero, .whatwedo, .about-us, .readmore, .testimonials, .latest-news, footer {
+        padding-inline: 50px;
+    }
 }
